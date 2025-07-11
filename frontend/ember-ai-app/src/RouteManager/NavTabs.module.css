@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.2rem 0 1.5rem 0;
+  background: #f8f9fa;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 2px 12px 0 rgba(60,60,60,0.06);
+  margin-bottom: 2.5rem;
+}
+
+.tab {
+  color: #4a63ff;
+  font-size: 1.15em;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5em 1.4em;
+  border-radius: 8px;
+  transition: background 0.18s, color 0.18s;
+}
+
+.tab:hover, .tab.active {
+  background: #e9edff;
+  color: #26337c;
+}
