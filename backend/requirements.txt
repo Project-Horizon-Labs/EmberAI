@@ -4,3 +4,6 @@ pydantic
 geopandas
 shapely
 numpy
+requests
+aiohttp
+python-dateutil
