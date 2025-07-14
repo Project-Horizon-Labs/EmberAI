@@ -1,0 +1,73 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f6f7fb 0%, #e6eaff 100%);
+  color: #222;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.accent-bar {
+  width: 100vw;
+  height: 8px;
+  background: linear-gradient(90deg, #4a63ff 0%, #5eead4 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.home-card {
+  background: #fff;
+  margin-top: 5vh;
+  padding: 3rem 2.5rem 2.5rem 2.5rem;
+  border-radius: 22px;
+  box-shadow: 0 4px 32px 0 rgba(60,60,60,0.10), 0 1.5px 5px 0 rgba(60,60,60,0.05);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2em;
+  z-index: 3;
+}
+
+.home-page h1 {
+  font-size: 2.6em;
+  margin: 0 0 0.3em 0;
+  color: #4a63ff;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 0;
+}
+
+.home-page p, .home-card p {
+  font-size: 1.18em;
+  margin-bottom: 0.5em;
+  color: #444;
+  text-align: left;
+  padding-left: 0;
+}
+
+.get-started-btn {
+  background: linear-gradient(90deg, #4a63ff 0%, #5eead4 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding: 0.7em 2.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1.2em;
+  box-shadow: 0 2px 10px 0 rgba(60,60,60,0.08);
+  transition: background 0.18s, box-shadow 0.18s;
+}
+.get-started-btn:hover {
+  background: linear-gradient(90deg, #5eead4 0%, #4a63ff 100%);
+  box-shadow: 0 4px 18px 0 rgba(60,60,60,0.13);
+}
