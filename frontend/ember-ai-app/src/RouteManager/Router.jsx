@@ -26,11 +26,15 @@ function NavTabs() {
 
 const AppRouter = () => (
   <Router>
-    <NavTabs />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/toolskit" element={<Toolskit />} />
-    </Routes>
+    <div style={{ display: 'flex', minHeight: '100vh' }}>
+      <NavTabs />
+      <main style={{ flex: 1, marginLeft: 180, width: '100vw', height: '100vh', overflow: 'hidden' }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/toolskit" element={<Toolskit />} />
+        </Routes>
+      </main>
+    </div>
   </Router>
 );
 
